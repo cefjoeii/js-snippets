@@ -6,7 +6,7 @@ function getData(url, callback) {
   var xhr = new XMLHttpRequest();
   xhr.open('GET', url, true);
 
-  xhr.onload = function () {
+  xhr.onload = function() {
     if (xhr.status >= 200 && xhr.status < 400) {
       callback(JSON.parse(xhr.responseText));
     }
@@ -15,7 +15,7 @@ function getData(url, callback) {
     }
   };
 
-  xhr.onerror = function () {
+  xhr.onerror = function() {
     // There was a connection error of some sort
   };
 
@@ -31,7 +31,7 @@ function postData(url, headerKey, headerValue, data, callback) {
 
   xhr.send(data);
 
-  xhr.onreadystatechange = function () {
+  xhr.onreadystatechange = function() {
 
     // 4 = Response from server has been completely loaded.
     if (xhr.readyState === 4) {
