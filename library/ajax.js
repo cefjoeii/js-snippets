@@ -1,3 +1,4 @@
+// ajax.js
 // A reusable ES5 code to make ajax's async slightly easier to deal with via callback
 // Supports IE10+
 
