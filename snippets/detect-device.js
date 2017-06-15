@@ -1,5 +1,5 @@
-// detect-device.js
-// A function that detects the device and returns a string
+// Detect Device
+// An imperfect function that detects the client device and returns a string
 
 function detectDevice() {
 

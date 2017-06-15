@@ -1,9 +1,8 @@
-// detect-browser.js
-// A function that detects the browser and returns a string
+// Detect Browser
+// An imperfect function that detects the browser and returns a string
+// See: https://stackoverflow.com/questions/2400935/browser-detection-in-javascript
 
 function detectBrowser() {
-
-    // See: https://stackoverflow.com/questions/2400935/browser-detection-in-javascript
 
     // Opera 8.0+ (UA detection to detect Blink/v8-powered Opera)
     var isOpera = !!window.opera || navigator.userAgent.indexOf(' OPR/') >= 0;
