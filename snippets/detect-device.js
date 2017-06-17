@@ -1,5 +1,5 @@
 // Detect Device
-// An imperfect function that detects the client device and returns a string
+// A function that attempts to detect the client device and returns a string
 
 function detectDevice() {
 

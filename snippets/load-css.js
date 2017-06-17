@@ -1,6 +1,6 @@
 // Load CSS
 // A function the attaches a css link tag on the <head>
-// Perfect if you only have access to the <body> and want to import a CSS file
+// Perfect if you only have access to the <body> and want to import a CSS file on the <head>
 // See: https://stackoverflow.com/questions/11833325/css-hack-adding-css-in-the-body-of-a-website
 // loadCSS("path_to_css/file.css");
 

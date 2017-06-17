@@ -1,5 +1,5 @@
 // Detect Browser
-// An imperfect function that detects the browser and returns a string
+// A function that attempts to detect the browser and returns a string
 // See: https://stackoverflow.com/questions/2400935/browser-detection-in-javascript
 
 function detectBrowser() {
