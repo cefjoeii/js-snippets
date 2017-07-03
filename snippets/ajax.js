@@ -1,5 +1,7 @@
 // AJAX
-// A reusable code to make AJAX's asynchronousity slightly easier to deal with via callback
+// A reusable code to make AJAX's asynchronousity slightly easier to deal with via the so-called 'callback'
+// I'm aware that this could be flatten out via promises, but for simplicity and compatibility, this would do for now.
+// See: http://callbackhell.com/
 // IE10+
 
 // Get Data
